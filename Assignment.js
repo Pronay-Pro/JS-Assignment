@@ -102,7 +102,7 @@ function megaFriend(array) {
     var friend = array[0];
     for (var i = 0; i < array.length; i++) {
         friend = array[i];
-        if (array[i] > 1 || array[i] < 1 || array[i == " "]) {
+        if (array[i] > 1 || array[i] < 1 || array[i] == " ") {
             return "Hey!! Why you enter number?\nYou just want to know you Mega friend name.\nPlease enter your friend name :)";//if user enter number OR Null array
         }
     }
